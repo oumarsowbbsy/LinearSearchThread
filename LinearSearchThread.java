@@ -18,7 +18,7 @@ public class LinearSearchThread {
         Scanner in = new Scanner(System.in);
         int x = in.nextInt();
         Searcher t = new Searcher(list, 0, 0, 50, x);
-        Searcher t1 = new Searcher(list, 50, 100, x);
+        Searcher t1 = new Searchgtir(list, 50, 100, x);
         Searcher t2 = new Searcher(list, 100, 150, x);
         Searcher t3 = new Searcher(list, 150, 200, x);
         t.start();
